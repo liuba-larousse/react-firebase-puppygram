@@ -4,7 +4,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Avatar, IconButton } from '@material-ui/core';
 import DeleteIcon from '@material-ui/icons/Delete';
-import { db } from './../firebase';
+import { db } from '../firebase';
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -10,7 +10,7 @@ import {
 import { PhotoCamera } from '@material-ui/icons';
 
 import { makeStyles } from '@material-ui/core/styles';
-import { storage, db } from './../firebase';
+import { storage, db } from '../firebase';
 import firebase from '@firebase/app';
 
 const useStyles = makeStyles((theme) => ({

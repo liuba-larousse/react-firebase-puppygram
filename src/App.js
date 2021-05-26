@@ -77,7 +77,7 @@ export default function App() {
           <div className='app_loginRequest'>
             <Typography
               color='secondary'
-              variant='p'
+              variant='h6'
               component='p'
               align='center'
               gutterBottom

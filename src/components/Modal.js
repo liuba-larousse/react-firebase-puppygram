@@ -9,7 +9,7 @@ import {
   FormControl,
   InputLabel,
 } from '@material-ui/core';
-import { auth } from './../firebase';
+import { auth } from '../firebase';
 
 function getModalStyle() {
   const top = 50;
