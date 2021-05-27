@@ -1,15 +1,17 @@
-import firebase from "@firebase/app";
-import "@firebase/auth";
-import "@firebase/storage";
-import "@firebase/firestore";
+/** @format */
+
+import firebase from '@firebase/app';
+import '@firebase/auth';
+import '@firebase/storage';
+import '@firebase/firestore';
 
 const config = {
-  apiKey: "AIzaSyDGzTgPsG0FStItQ7ppelV3S-yB4m86cGI",
-  authDomain: "instagram-clone-app-ebf8a.firebaseapp.com",
-  projectId: "instagram-clone-app-ebf8a",
-  storageBucket: "instagram-clone-app-ebf8a.appspot.com",
-  messagingSenderId: "42253588690",
-  appId: "1:42253588690:web:d5c66cc81cf62c6012750b"
+  apiKey: 'AIzaSyDcOv99qoA_yxIP3ZTu7JIJaP0JWMGKyz8',
+  authDomain: 'react-firebase-puppygram.firebaseapp.com',
+  projectId: 'react-firebase-puppygram',
+  storageBucket: 'react-firebase-puppygram.appspot.com',
+  messagingSenderId: '244710494009',
+  appId: '1:244710494009:web:a6a78ba08adae0df9e62e8',
 };
 
 const firebaseApp = firebase.initializeApp(config);

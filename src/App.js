@@ -83,7 +83,7 @@ export default function App() {
               gutterBottom
             >
               Please to log in to upload your puppy images
-              🐶 🐾
+              🐾
             </Typography>
           </div>
         )}

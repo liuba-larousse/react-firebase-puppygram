@@ -72,14 +72,14 @@ export default function Upload({ username }) {
 
   function handlePreview(image) {
     storage.ref(`image_previews/${image.name}`).put(image);
-
     storage
-      .ref('images')
+      .ref('image_previews')
       .child(image.name)
       .getDownloadURL()
       .then((url) => setImagePreview(url));
   }
 
+  console.log(imagePreview);
   const handleChange = (e) => {
     if (e.target.files[0]) {
       console.log('file:', e.target.files[0]);
@@ -130,6 +130,7 @@ export default function Upload({ username }) {
         setProgress(0);
         setCaption('');
         setImage(null);
+        setImagePreview(null);
       }
     );
   }
